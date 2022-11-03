@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav-main {
+    background-color: black;
+}
+
+.nav-header {
+    margin-right: 70%;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-header {
+        margin-right: 0;
+    }
+}
+
+
+.banner-holder {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    margin-bottom: 5%;
+    max-height: fit-content;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.head-text {
+    
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: calc(60% - 50px);
+    left: 0;
+    text-align: center;
+    width: 100%
+}
+
+@media only screen and (min-width: 992px) {
+    .head-text {font-size: 80px}
+}
+
+.date-button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 7vh;
+    width: 500px;
+    border-color: black;
+    border-width: thin
+}
+
+.show-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    overflow: auto;
+}
+
+
+.img-box {
+    width: 264px;
+    height: 261px;
+}
+
+.show-card {
+    margin-left: 5vh;
+    margin-top: 7vh;
+    height: fit-content;
+    padding-bottom: 5vh;
+    border-color: transparent;
+    text-align: center;
+    align-items: center;
+}
+
+.read-more {
+    background-color: #FFAE42;
+    border-color: lightgray;
+    border-width: thin;
+    border-radius: 2px;
+}
+
+.read-more:hover {
+    background-color: #FFAE42;
+    border-color: white;
+}
+
+
+
+.read-more:focus {
+    background-color: #FFAE42;
+    border-color: lightgray;
+    border-width: thin;
+    border-radius: 2px;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .5);
+}
+
+footer {
+    background-color: black;
+}
+
+
+.footer-icon {
+    color: #FFAE42
+}
+
+.footer-head {
+    color: white;
+}
+
+.footer-section > p {
+    color: white;
+}
+
+
+
